@@ -1,4 +1,4 @@
-package tpfs
+package main
 
 import (
 	// "encoding/json"
@@ -7,12 +7,12 @@ import (
 	// "io/ioutil"
 	// "os"
 	// "strings"
-	// "database/tpfs"
+	"database/tpfs"
 )
 
 func main(){
-	fmt.Println("dd")
-	CreateAction(100,200,400)
+	fmt.Println("dddd")
+	tpfs.CreateAction(100,200)
 }
 
 
